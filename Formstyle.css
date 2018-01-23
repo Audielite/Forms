@@ -1,0 +1,33 @@
+
+body {
+  background-image: -webkit-linear-gradient(#66cccc, #336666);
+  /*background-color: #66cccc*/
+}
+
+h1 {
+    text-shadow: 0 0 3px #FFFFFF;
+}
+
+p{
+  color: black;
+  font-size: 120%
+}
+
+#content {
+    position: relative;
+}
+#content img {
+    position: absolute;
+    top: 140px;
+    right: 0px;
+    left: 600px;
+}
+#content_2 img {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    left: 600px;
+}
+select {
+  width: 114px;
+}

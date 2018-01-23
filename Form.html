@@ -1,0 +1,63 @@
+<html>
+
+<head>
+
+  <link rel="stylesheet" type="text/css" href="Formstyle.css">
+
+</head>
+<body>
+
+  <img src="e3-logo-new.png" width ="380" height="200">
+  <h1>Register for the E3 conference!</h1>
+
+  <div id="content">
+  <img src="e3-2016-MS.jpg" width ="800" height="390">
+  </div>
+
+  <div id="content_2">
+  <img src="E3Floor03.jpg" width ="800" height="400">
+  </div>
+
+<form>
+<p> <span id = "gradient"></span>Username:<br>
+  <input type="text" name="username" size="21" maxlength="70" />
+    <br>Password:<br>
+    <input type="password" name="password" size="21" maxlength="70" />
+    <br>Email:<br>
+    <input type="email" name="email"size="21" maxlength="70" />
+    <br>Date of birth:<br>
+    <input type="date" name="bday" size="20" /><br>
+    <br>Special request needed?<br>
+    <textarea name="comments" cols="50" rows="6">Write requests here...</textarea><br>
+    <br>Choose T-Shirt size?<br>
+    <select name="size">
+      <option value="small">Small</option>
+      <option value="medium">Medium</option>
+      <option value="large">Large</option>
+    </select>
+  </p>
+
+<p>Would you like to receive emails from conference sponsors?
+  <br />
+  <input type="radio" name="choice" value="Yes" checked="checked" /> Yes
+  <input type="radio" name="choice" value="No" checked="checked" /> No
+</p>
+
+<p>Which session will you be attending?
+<br />
+<input type="checkbox" name="selection" value="Morning" checked="checked" /> Morniing
+<input type="checkbox" name="selection" value="Afternoon" checked="checked" /> Afternoon
+<input type="checkbox" name="selection" value="Both" checked="checked" /> Both
+</p>
+</form>
+
+<form>
+
+  <div id="button">
+  <input type="submit" />
+  </div>
+
+</form>
+
+</html>
+  </body>
